@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   nestapp:
-    build: ./
+    image: eaezequielalonso/ecommerce-latest
     ports:
       - "3002:3001"
     env_file: 

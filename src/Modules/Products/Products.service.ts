@@ -25,8 +25,8 @@ export class ProductsService {
             const categoryExist:Category = await this.categoryRepository.getCategoryByName(product.category);
             if (!productExist) {   
                 if (categoryExist) {
-                    await this.productsRepository.createProduct({...product, category: categoryExist});
-                    responsePreload.push(`Se Agrego el Producto: ${productExist.name}`)
+                    const productCreated: Product = await this.productsRepository.createProduct({...product, category: categoryExist});
+                    responsePreload.push(`Se Agrego el Producto: ${productCreated.name}`)
                 } 
             } else {
                 if (productExist.orderDetails.length>=1) {
