@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Ezequiel Alonso",
+        "email": "eze@gmail.com",
+        "password": "Ezealon@0",
+        "isAdmin": true,
+        "address": "Las Camelias 345",
+        "phone": 1168443073,
+        "country": "Argentina",
+        "city": "Buenos Aires"
+    },
+    {
+        "name": "Nadia Correia",
+        "email": "nadia@gmail.com",
+        "password": "Nadcor@0",
+        "isAdmin": true,
+        "address": "Las Camelias 345",
+        "phone": 1168443073,
+        "country": "Argentina",
+        "city": "Buenos Aires"
+    },
+    {
+        "name": "Ailin Alonso",
+        "email": "ailin@gmail.com",
+        "password": "ailinalon.0",
+        "isAdmin": false,
+        "address": "Las Camelias 345",
+        "phone": 1168443073,
+        "country": "Argentina",
+        "city": "Buenos Aires"
+    },
+    {
+        "name": "Brisa Alonso",
+        "email": "brisa@gmail.com",
+        "password": "Brialon@0",
+        "isAdmin": false,
+        "address": "Las Camelias 345",
+        "phone": 1168443073,
+        "country": "Argentina",
+        "city": "Buenos Aires"
+    },
+    {
+        "name": "Caleb Alonso",
+        "email": "caleb@gmail.com",
+        "password": "Calealon@0",
+        "isAdmin": false,
+        "address": "Las Camelias 345",
+        "phone": 1168443073,
+        "country": "Argentina",
+        "city": "Buenos Aires"
+    }
+]
